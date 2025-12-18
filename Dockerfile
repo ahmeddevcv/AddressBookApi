@@ -1,7 +1,7 @@
 # Base image to run the ASP.NET Core application
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
 WORKDIR /app
-EXPOSE 80
+EXPOSE 8080
 
 # Image used to build the application
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
