@@ -8,7 +8,7 @@ All contact endpoints are protected using JWT Bearer authentication.
 You must log in first to obtain a token.
 
 
-<br/><br/>
+<br/>
 🚀 Features
 
 User registration and login
@@ -29,8 +29,7 @@ Swagger API documentation
 
 Postman
 
-<br/><br/>
-
+<br/>
 
 
 🛠️ Tech Stack
@@ -47,8 +46,7 @@ Docker & Docker Compose
 
 Swagger / OpenAPI
 
-<br/><br/>
-
+<br/>
 
 
 📦 Installation & Setup
@@ -62,7 +60,7 @@ Docker Desktop (optional)
 
 Postman (for testing)
 
-<br/><br/>
+<br/>
 
 
 
