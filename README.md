@@ -1,88 +1,72 @@
-**# Address Book API**
+Address Book API
+
+A .NET Core Web API application for user registration, authentication, and personal contact management.
+
+🔐 Authentication
+
+All contact endpoints are protected using JWT Bearer authentication.
+You must log in first to obtain a token.
 
 
+🚀 Features
 
-**A .NET Core Web API application for user registration, authentication, and personal contact management.**
+User registration and login
 
+JWT-based authentication
 
+Secure password hashing
 
-**---**
+Personal address book per user
 
+CRUD operations for contacts
 
+Sorting and pagination for contacts
 
-**## 🚀 Features**
+Docker Compose (API + SQL Server)
 
-**- User registration and login**
+Swagger API documentation
 
-**- JWT-based authentication**
-
-**- Secure password hashing**
-
-**- Personal address book per user**
-
-**- CRUD operations for contacts**
-
-**- Sorting and pagination for contacts**
-
-**- Docker Compose (API + SQL Server)**
-
-**- Swagger API documentation**
+Postman
 
 
+🛠️ Tech Stack
 
-**---**
+.NET 8 Web API
 
+Entity Framework Core
 
+SQL Server
 
-**## 🛠️ Tech Stack**
+JWT Authentication
 
-**- .NET 8 Web API**
+Docker & Docker Compose
 
-**- Entity Framework Core**
-
-**- SQL Server**
-
-**- JWT Authentication**
-
-**- Docker \& Docker Compose**
-
-**- Swagger / OpenAPI**
+Swagger / OpenAPI
 
 
+📦 Installation & Setup
+Prerequisites
 
-**---**
+.NET SDK 8
 
+SQL Server (Local or Docker)
 
+Docker Desktop (optional)
 
-**## 📦 Installation \& Setup**
-
-
-
-**### 🔹 Prerequisites**
-
-**- .NET SDK 8**
-
-**- SQL Server (Local or Docker)**
-
-**- Docker Desktop (optional)**
-
-**- Postman (for testing)**
+Postman (for testing)
 
 
+## ▶️ Run Locally (Without Docker)
 
-**---**
-
-
-
-**## ▶️ Run Locally (Without Docker)**
-
+1. Clone the repository:
+```bash
+git clone https://github.com/ahmeddevcv/AddressBookApi
 
 
-**1. Clone the repository:**
+## 🐳 Run with Docker
 
-**```bash**
+The project includes a Docker Compose setup to run the API and SQL Server in separate containers.
 
-**git clone <repository-url>**
-
-
-
+1. Build and start the containers:
+```bash
+docker-compose up --build
