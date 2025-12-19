@@ -8,6 +8,8 @@ All contact endpoints are protected using JWT Bearer authentication.
 You must log in first to obtain a token.
 
 
+
+
 🚀 Features
 
 User registration and login
@@ -29,6 +31,8 @@ Swagger API documentation
 Postman
 
 
+
+
 🛠️ Tech Stack
 
 .NET 8 Web API
@@ -44,6 +48,8 @@ Docker & Docker Compose
 Swagger / OpenAPI
 
 
+
+
 📦 Installation & Setup
 Prerequisites
 
@@ -56,17 +62,20 @@ Docker Desktop (optional)
 Postman (for testing)
 
 
-## ▶️ Run Locally (Without Docker)
+
+
+▶️ Run Locally (Without Docker)
 
 1. Clone the repository:
 ```bash
 git clone https://github.com/ahmeddevcv/AddressBookApi
+```
 
-
-## 🐳 Run with Docker
+🐳 Run with Docker
 
 The project includes a Docker Compose setup to run the API and SQL Server in separate containers.
 
 1. Build and start the containers:
 ```bash
 docker-compose up --build
+```
