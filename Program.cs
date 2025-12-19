@@ -53,6 +53,13 @@ namespace AddressBookApi
 
             var app = builder.Build();
 
+            //apply migrations automatically
+            using (var scope = app.Services.CreateScope())
+            {
+                var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+                db.Database.Migrate();
+            }
+
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
             {
@@ -67,6 +74,7 @@ namespace AddressBookApi
 
 
             app.MapControllers();
+           
 
             app.Run();
         }
